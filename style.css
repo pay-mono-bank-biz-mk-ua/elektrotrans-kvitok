@@ -145,9 +145,12 @@ body {
 }
 
 .dotted-line {
-  margin-top: auto;
-  margin-bottom: 15px;
-  display: flex;
+    width: 95%;
+    height: 1px;
+    background-image: -webkit-gradient(linear,left top,right top,from(#CCC),color-stop(50%,#CCC),color-stop(50%,transparent),to(transparent));
+    background-image: -webkit-linear-gradient(left,#CCC,#CCC 50%,transparent 50%,transparent 100%);
+    background-image: linear-gradient(90deg,#CCC,#CCC 50%,transparent 50%,transparent 100%);
+    background-size: 20px 1px;
 }
 
 .qr-code {
@@ -263,6 +266,7 @@ box-shadow: 0 0 15px 10px rgba(238, 238, 238);
     z-index: 1;
   }
 }
+
 
 
 
